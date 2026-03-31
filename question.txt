@@ -1,0 +1,9 @@
+1. Pourquoi la classe Appareil est-elle abstraite ?
+C'est un modèle incomplet qui sert uniquement 
+de base pour créer d'autres classes plus précises.
+
+2. Peut-on écrire Appareil a = new Appareil(...); ?
+Non, une classe abstraite ne peut pas être instanciée directement.
+3. Quelle est la différence entre une méthode virtual et une méthode abstract ?
+Une méthode virtual a déjà un code (modifiable), alors qu'une abstract 
+n'en a aucun et force la classe fille à l'écrire.
