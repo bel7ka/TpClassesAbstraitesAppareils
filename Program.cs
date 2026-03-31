@@ -4,6 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        DateTime dateo1 = new DateTime(2026, 3, 25);
+        Appareil o1 = new Ordinateur ($"Marque : Lenovo", "Modèle : ThinkPad", dateo1, 15.6f);
+        o1.Allumer();
+        o1.AfficherType();
+        o1.AfficherGarantie();
+        o1.AfficherInfos();
+        Console.WriteLine(o1.ToString());
+
     }
 }

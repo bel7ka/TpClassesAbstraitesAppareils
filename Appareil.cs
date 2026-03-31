@@ -1,8 +1,9 @@
-abstract class Appareil
+namespace tp2_classe_abstrait;
+public abstract class Appareil
 {
-    private string Marque;
-    private string Modele;
-    private DateTime DateFabrication;
+    protected string Marque;
+    protected string Modele;
+    protected DateTime DateFabrication;
    
     // Constructeur par défaut
     public Appareil() { }
@@ -31,7 +32,7 @@ abstract class Appareil
     {
         this.Modele = modele;
     }
-    public DateTime GetDateTime ()
+    public DateTime GetDateFabrication()
     {
         DateFabrication = DateFabrication;
         return DateFabrication;
@@ -59,7 +60,7 @@ abstract class Appareil
     // Méthode abstraite pour afficher les informations de l'appareil, doit être Instancié par les classes filles
     public abstract void AfficherInfos();
     // Méthode abstraite pour calculer l'ancienneté de l'appareil, doit être Instancié par les classes filles
-    public abstract void CalculerAnciennete();
+    public abstract float CalculerAnciennete();
 
  
 }
