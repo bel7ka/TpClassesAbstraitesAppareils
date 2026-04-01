@@ -26,12 +26,14 @@ Appareil ?
 Le type utilisé est DateTime.
 
 Exercice 5
-
-
+Pourquoi peut-on stocker des Ordinateur et des Smartphone dans une liste de type
+Appareil ?
+On peut stocker des objets Ordinateur et Smartphone dans une liste de type Appareil
+car ils héritent de la classe Appareil.
+C'est le principe du polymorphisme : une classe parent peut contenir des objets de ses classes enfants.
 
 Exercice 6
+À quoi sert un dictionnaire dans un programme ?
 
-
-
-
-Exercice 
+Exercice 7
+Pourquoi le try...catch est-il utile dans cette méthode ?
