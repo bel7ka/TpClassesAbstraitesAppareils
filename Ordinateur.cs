@@ -41,6 +41,6 @@ public class Ordinateur : Appareil
     }
     public override string ToString()
     {
-        return $"Marque: {GetMarque()}, Modèle: {GetModele()}, Date de Fabrication: {GetDateFabrication()}, Taille de l'écran: {GetTailleEcran()} pouces, Ancienneté: {CalculerAnciennete()} ans";
+        return $"{GetMarque()}, {GetModele()}, Date de Fabrication: {GetDateFabrication()}, Taille de l'écran: {GetTailleEcran()} pouces, Ancienneté: {CalculerAnciennete()} ans";
     }
 }
