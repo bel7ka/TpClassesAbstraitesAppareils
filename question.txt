@@ -17,5 +17,21 @@ convertir un objet en texte (chaîne de caractères).
 
 Exercice 3
 Si Smartphone ne redéfinit pas AfficherType(), quelle version sera utilisée ?
+Si Smartphone ne redéfinit pas AfficherType(), c’est la méthode de 
+Appareil qui est utilisée.
 
 Exercice 4
+Pourquoi peut-on stocker des Ordinateur et des Smartphone dans une liste de type
+Appareil ?
+Le type utilisé est DateTime.
+
+Exercice 5
+
+
+
+Exercice 6
+
+
+
+
+Exercice 
